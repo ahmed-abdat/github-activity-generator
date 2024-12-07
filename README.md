@@ -2,6 +2,8 @@
 
 A simple tool to generate GitHub activity patterns! Perfect for testing, demonstrations, or filling contribution gaps.
 
+**[➡️ Try it live on Rimecode](https://rimecode.vercel.app/)**
+
 ## 🎯 Features
 
 - 📅 Generate commits for any date range
