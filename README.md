@@ -1,15 +1,42 @@
-# GitHub Activity Generator
+<div align="center">
 
-A simple tool to generate GitHub activity patterns! Perfect for testing, demonstrations, or filling contribution gaps.
+# ⭐ GitHub Activity Generator
 
-## 🎯 Features
+[![Stars](https://img.shields.io/github/stars/ahmed-abdat/github-activity-generator?style=social)](https://github.com/ahmed-abdat/github-activity-generator/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Author](https://img.shields.io/badge/Author-Ahmed%20Abdat-blue)](https://github.com/ahmed-abdat)
 
-- 📅 Generate commits for any date range
-- 🔢 Control how many commits per day
-- 📊 See live progress as commits are created
-- 🔍 Test your patterns with dry-run mode
-- ⏰ Random commit times for natural patterns
-- 🗓️ Support for future dates
+### 🌟 If you find this tool useful, show your support with a star! 🌟
+
+</div>
+
+🚀 **Transform your GitHub contribution graph with just a few commands!** Perfect for:
+- 📅 Generating commits for any date range
+- 📊 Creating custom contribution patterns
+- 🎨 Designing beautiful activity graphs
+- 🗓️ Planning future contributions
+- 🔬 Educational and testing purposes
+
+### ✨ Why Developers Love This Tool:
+- 🎮 **Super Easy to Use**: Just 2 minutes to set up and start
+- 🛠️ **Highly Customizable**: Control commit frequency and timing
+- 🔢 **Flexible Patterns**: Set min/max commits per day
+- 📈 **Live Progress**: Watch your contributions grow in real-time
+- 🔍 **Safe Testing**: Built-in dry-run mode for verification
+- ⏰ **Natural Looking**: Random commit times for realistic patterns
+
+---
+
+> ### 📝 NOTE
+>
+> ```
+> 🚨 FOR EDUCATIONAL PURPOSES ONLY!
+> ⚠️ This is a testing/demonstration tool
+> ❗ Author is not responsible for any misuse
+> 👨‍💻 Created by: Ahmed Abdat (https://github.com/ahmed-abdat)
+> ```
+
+---
 
 ## ⚙️ How It Works
 
@@ -162,6 +189,6 @@ npm install
 - 💡 Have an idea? [Create a pull request](https://github.com/ahmed-abdat/github-activity-generator/pulls)
 - ⭐ Like it? [Star the repo!](https://github.com/ahmed-abdat/github-activity-generator)
 
-## 📝 License
+##  License
 
 MIT License - Feel free to use in your projects!
