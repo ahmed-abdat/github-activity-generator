@@ -25,7 +25,7 @@ The tool works in a simple but effective way:
 4. **Progress Tracking**: Shows real-time progress as commits are created
 5. **Safety**: Includes dry-run mode to preview changes without making actual commits
 
-## 🚀 Getting Started (5 Minutes Setup)
+## 🚀 Getting Started (2 Minutes Setup)
 
 ### 1️⃣ Download & Setup
 
@@ -55,18 +55,23 @@ That's it! Check your GitHub profile - you should see new contributions.
 ## 📖 Available Patterns
 
 ### 1. Test Pattern (Default)
+
 - Creates 10 commits in the last 7 days
+
 ```bash
 node index.js
 ```
 
 ### 2. Full Year Pattern
+
 - Creates 200 commits across 2023
+
 ```bash
 node index.js year2023
 ```
 
 ### 3. Try Without Making Real Commits
+
 ```bash
 node index.js year2023 --dry-run
 ```
@@ -75,19 +80,21 @@ node index.js year2023 --dry-run
 
 1. Open `config.js`
 2. Add your pattern:
+
 ```javascript
 const config = {
-    myPattern: {
-        startDate: "2024-01-01",    // Start date
-        endDate: "2024-12-31",      // End date
-        minCommitsPerDay: 1,        // Minimum daily commits
-        maxCommitsPerDay: 5,        // Maximum daily commits
-        totalCommits: 300           // Total commits to create
-    }
+  myPattern: {
+    startDate: "2024-01-01", // Start date
+    endDate: "2024-12-31", // End date
+    minCommitsPerDay: 1, // Minimum daily commits
+    maxCommitsPerDay: 5, // Maximum daily commits
+    totalCommits: 300, // Total commits to create
+  },
 };
 ```
 
 3. Use it:
+
 ```bash
 node index.js myPattern
 ```
@@ -95,41 +102,52 @@ node index.js myPattern
 ## ⚙️ Customize Settings
 
 ### Show Progress More/Less Often
+
 In `constants.js`:
+
 ```javascript
 // Show progress every 50 commits
-PROGRESS_INTERVAL: 50
+PROGRESS_INTERVAL: 50;
 ```
 
 ### Enable Future Dates
+
 In `constants.js`:
+
 ```javascript
 // Allow commits for future dates
-ALLOW_FUTURE_DATES: true
+ALLOW_FUTURE_DATES: true;
 ```
 
 ## 🔍 Troubleshooting
 
 ### Commits Not Showing on GitHub?
+
 1. Check your Git email matches GitHub:
+
 ```bash
 git config user.email
 ```
+
 2. Make sure it matches your GitHub email
 
 ### Push Failed?
+
 Try this:
+
 ```bash
 git pull origin main
 git push origin main
 ```
 
 ### Module Errors?
+
 ```bash
 npm install
 ```
 
 ## 📁 Project Structure
+
 ```
 .
 ├── index.js      # Main script
