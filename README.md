@@ -42,7 +42,7 @@ That's it! Check your GitHub profile - you should see new contributions.
 
 ### 1. Test Pattern (Default)
 - Creates 10 commits in the last 7 days
-bash
+```bash
 node index.js
 ```
 
@@ -58,8 +58,8 @@ node index.js year2023 --dry-run
 ```
 
 ## ✨ Create Your Own Pattern
-
-1. Open `config.js`
+```
+1. Openconfig.js`
 2. Add your pattern:
 ```javascript
 const config = {
@@ -132,3 +132,4 @@ npm install
 ## 📝 License
 
 MIT License - Feel free to use in your projects!
+
