@@ -11,6 +11,20 @@ A simple tool to generate GitHub activity patterns! Perfect for testing, demonst
 - ⏰ Random commit times for natural patterns
 - 🗓️ Support for future dates
 
+## ⚙️ How It Works
+
+The tool works in a simple but effective way:
+
+1. **Configuration**: The `config.js` file defines commit patterns (dates, frequency, etc.)
+2. **Execution**: When you run `index.js`:
+   - It reads your chosen pattern from `config.js`
+   - Calculates commit dates and times
+   - Creates a small change in `data.txt`
+   - Makes a commit with a timestamp
+3. **Randomization**: Each commit gets a random time during the day for natural-looking patterns
+4. **Progress Tracking**: Shows real-time progress as commits are created
+5. **Safety**: Includes dry-run mode to preview changes without making actual commits
+
 ## 🚀 Getting Started (5 Minutes Setup)
 
 ### 1️⃣ Download & Setup
@@ -58,8 +72,8 @@ node index.js year2023 --dry-run
 ```
 
 ## ✨ Create Your Own Pattern
-```
-1. Openconfig.js`
+
+1. Open `config.js`
 2. Add your pattern:
 ```javascript
 const config = {
@@ -72,6 +86,7 @@ const config = {
     }
 };
 ```
+
 3. Use it:
 ```bash
 node index.js myPattern
@@ -132,4 +147,3 @@ npm install
 ## 📝 License
 
 MIT License - Feel free to use in your projects!
-
