@@ -2,8 +2,6 @@
 
 A simple tool to generate GitHub activity patterns! Perfect for testing, demonstrations, or filling contribution gaps.
 
-**[➡️ Try it live on Rimecode](https://rimecode.vercel.app/)**
-
 ## 🎯 Features
 
 - 📅 Generate commits for any date range
@@ -127,9 +125,9 @@ npm install
 
 ## 🤝 Need Help?
 
-- 🐛 Found a bug? [Open an issue](https://github.com/ahmed-abdat/GitHub_Contribution_Generator/issues)
-- 💡 Have an idea? [Create a pull request](https://github.com/ahmed-abdat/GitHub_Contribution_Generator/pulls)
-- ⭐ Like it? [Star the repo!](https://github.com/ahmed-abdat/GitHub_Contribution_Generator)
+- 🐛 Found a bug? [Open an issue](https://github.com/ahmed-abdat/github-activity-generator/issues)
+- 💡 Have an idea? [Create a pull request](https://github.com/ahmed-abdat/github-activity-generator/pulls)
+- ⭐ Like it? [Star the repo!](https://github.com/ahmed-abdat/github-activity-generator)
 
 ## 📝 License
 
