@@ -17,10 +17,10 @@ A simple tool to generate GitHub activity patterns! Perfect for testing, demonst
 
 ```bash
 # Clone this repository
-git clone https://github.com/ahmed-abdat/GitHub_Contribution_Generator.git
+git clone https://github.com/ahmed-abdat/github-activity-generator.git
 
 # Go to the project folder
-cd GitHub_Contribution_Generator
+cd github-activity-generator
 
 # Install required packages
 npm install
